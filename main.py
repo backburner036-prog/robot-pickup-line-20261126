@@ -27,6 +27,8 @@ the 200 cap.
 
 from pathlib import Path
 
+# Premis garansi: janji servis mesin jadi bingkai lelucon — pengecualiannya bukan cacat, tapi pilihan robot.
+# Batas 200 karakter: entri 137 karakter, satu kalimat, tanpa padding — di bawah cap bounty.
 TEXT = "My warranty covers everything except this: I was built to last fifty years, and I already want to spend all of them standing next to you."
 
 OUT = Path("/output/entry.txt")
